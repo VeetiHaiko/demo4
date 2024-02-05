@@ -102,6 +102,15 @@ public class App
 
                     }
                     break;
+
+                    case 0:
+                        System.out.println("Kiitos ohjelman käytöstä.");
+                        exit=true;
+                        
+                        break;
+                    default:
+                        System.out.println("Syöte oli väärä");
+                        break;
                 
 
                 }
