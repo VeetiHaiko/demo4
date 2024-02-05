@@ -44,7 +44,7 @@ public class App
 
                     case 3:
                     List<Student> students = university.getStudents();
-                    System.out.println("Opiskelijat:");
+                    
                     for (int i = 0; i < students.size(); i++) {
                         System.out.println(i + ": " + students.get(i).getName());
                     }
