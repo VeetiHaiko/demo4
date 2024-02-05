@@ -75,7 +75,7 @@ public class App
                     int studentIndexPrint = sc.nextInt();
                     sc.nextLine();
                     Student studentPrint = university.getStudents().get(studentIndexPrint);
-                    System.out.println(studentPrint.getName() + " suoritteet:");
+                    
                     List<Grade> grades = studentPrint.getGrades();
                     for (int i = 0; i < grades.size(); i++){
                         System.out.println(grades.get(i).getCourse() + ": " + grades.get(i).getGrade());
