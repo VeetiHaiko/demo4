@@ -86,18 +86,18 @@ public class App
                     List<Student> studentsss = university.getStudents();
                     
                     
-                    System.out.println("Opiskelijat:");
+                    
                     for (int i = 0; i < studentsss.size(); i++) {
                         System.out.println(i + ": " + studentsss.get(i).getName());
                     }
                     
-                    System.out.println("Minkä opsikelijan suoritteiden keskiarvo lasketaan?");
+                    System.out.println("Minkä opiskelijan suoritteiden keskiarvo lasketaan?");
                     int studentIndexA=sc.nextInt();
                     sc.nextLine();
                     if (studentIndexA >= 0 && studentIndexA < studentsss.size()){
                         Student studentA = studentsss.get(studentIndexA);
                         double averageGrade = Calculator.calculateAverageGrade(studentA);
-                        System.out.println("Keskiarvo on: " + averageGrade);
+                        System.out.println("Keskiarvo on " + averageGrade);
 
 
                     }
